@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<top>
+<VBox>
+<!-- Navigation Bar -->
+<ToolBar>
+<items>
+<Button text="Cut" />
+<Button text="Copy" />
+<Button text="Paste" />
+<!-- You can add more buttons or controls here for navigation -->
+</items>
+</ToolBar>
+<!-- Menu Bar -->
+<MenuBar>
+<menus>
+<Menu text="File">
+<items>
+<MenuItem text="New" />
+<MenuItem text="Open" />
+<MenuItem text="Save" />
+<MenuItem text="Save As" />
+<MenuItem text="Exit" />
+</items>
+</Menu>
+</menus>
+</MenuBar>
+</VBox>
+        <TextArea fx:id="textArea" BorderPane.alignment="CENTER" />
+</center>
+</BorderPane>
+
+
+
+
